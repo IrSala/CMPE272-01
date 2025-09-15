@@ -17,10 +17,12 @@ The purpose of this repository is to showcase the build of a servless web applic
 
 _***Note**: Here is the invoke URL used to test the application: https://htgh6xl2aa.execute-api.us-east-2.amazonaws.com/tester*_
 
+
 4. Create an API Gateway in API Gateway through AWS Management Console.
 
 
 **Reflection**
+
 I faced a couple challenges. 
 
 From using AWS Lambda and DynamoDB I learned many things. I learned how to trigger a Lambda function using an API Gateway, interact with DynamoDB to perform basic CRUD operatinos, and how to deploy and test this application in the AWS environment. I also learned that both services are loosely coupled as they both function independently from each other while being able to communicate with each other. 
