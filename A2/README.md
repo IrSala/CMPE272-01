@@ -39,6 +39,7 @@ Below is a screenshot of added data points to the table in DynamoDB along with t
    ![Alt text](screenshots/7.png)
    
 **Optional**
+
 The Lambda function was extended to be able to handle PUT and DELETE. A couple of lines of code were added to handle floating point numbers as a GPA category was added as a field. The DELETE and PUT meethods were added to the API.  
 ![Alt text](screenshots/5.png)
 
