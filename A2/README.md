@@ -20,13 +20,13 @@ _***Note**: Here is the invoke URL used to test the application: https://htgh6xl
 
 4. Test the application - mainly the create and read operations. Curl was used to test the API by sending HTTP requests to the deployed API Gateway. Below are the requests used to test the create and read operation.
 
-<u>create</u>
+<u>CREATE</u>
 curl -X POST \
   https://htgh6xl2aa.execute-api.us-east-2.amazonaws.com/tester/students \
   -H "Content-Type: application/json" \
   -d '{"student_id":"123","name":"John Doe","course":"Enterprise Software"}'
 
-<u>read</u>
+<u>READ</u>
 Below is a screenshot of utilizing these two requests using curl and the results from using both. 
 
    ![Alt text](screenshots/4.png)
