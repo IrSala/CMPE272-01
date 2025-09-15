@@ -3,6 +3,7 @@ Irwin Salamanca CMPE 272 Assignment 2
 
 The purpose of this repository is to showcase the build of a servless web application with AWS Lambda and DynamoDB.
 
+
 **Building the Serverless Web Application**
 1. Create a table called StudentRecords with the partition key being student_id in DynamoDB through AWS Management Console.
    ![Alt text](screenshots/1.png)
@@ -14,9 +15,10 @@ The purpose of this repository is to showcase the build of a servless web applic
    
    ![Alt text](screenshots/3.png)
 
-_*Note: Here is the invoke URL used to test the application: https://htgh6xl2aa.execute-api.us-east-2.amazonaws.com/tester*_
+_***Note**: Here is the invoke URL used to test the application: https://htgh6xl2aa.execute-api.us-east-2.amazonaws.com/tester*_
 
 4. Create an API Gateway in API Gateway through AWS Management Console.
+
 
 **Reflection**
 I faced a couple challenges. 
