@@ -1,7 +1,7 @@
 # CMPE272-01-A1
 Irwin Salamanca CMPE 272 Assignment 2
 
-The purpose of this repository is to showcase the build of a servless web application with AWS Lambda and DynamoDB.
+The purpose of this repository is to showcase the build of a servless web application with AWS Lambda and DynamoDB that does CRUD operations (Create, Read, Update, Delete).
 
 
 **Building the Serverless Web Application**
@@ -18,25 +18,35 @@ The purpose of this repository is to showcase the build of a servless web applic
 _***Note**: Here is the invoke URL used to test the application: https://htgh6xl2aa.execute-api.us-east-2.amazonaws.com/tester*_
 
 
-4. Test the application - mainly the create and read operations. Curl was used to test the API by sending HTTP requests to the deployed API Gateway. Below are the requests used to test the create and read operation.
+4. Test the application - mainly the create and read operations. Curl was used to test the API by sending HTTP requests to the deployed API Gateway. Below are the requests used to test the CREATE and READ operation.
 
-<u>CREATE</u>
 curl -X POST \
   https://htgh6xl2aa.execute-api.us-east-2.amazonaws.com/tester/students \
   -H "Content-Type: application/json" \
   -d '{"student_id":"123","name":"John Doe","course":"Enterprise Software"}'
 
-<u>READ</u>
+
+curl -X GET \
+  "https://htgh6xl2aa.execute-api.us-east-2.amazonaws.com/tester/students?student_id=123"
+
+
 Below is a screenshot of utilizing these two requests using curl and the results from using both. 
 
    ![Alt text](screenshots/4.png)
 
+Below is a screenshot of added data points to the table in DynamoDB along with the original data point used to test the CREATE and READ operations.
+   ![Alt text](screenshots/7.png)
+   
 **Optional**
-The Lambda function was extended to be able to handle PUT and DELETE.
+The Lambda function was extended to be able to handle PUT and DELETE. A couple of lines of code were added to handle floating point numbers as a GPA category was added as a field. The DELETE and PUT meethods were added to the API.  
+![Alt text](screenshots/5.png)
+
+Below is a screenshot of testing all the methods - CREATE, READ, PUT, DELETE
+![Alt text](screenshots/6.png)
+
 
 **Reflection**
-
-I faced a couple challenges. 
+I faced a couple challenges. ONe of the expected challenges is navigating the AWS Console. 
 
 From using AWS Lambda and DynamoDB I learned many things. I learned how to trigger a Lambda function using an API Gateway, interact with DynamoDB to perform basic CRUD operatinos, and how to deploy and test this application in the AWS environment. I also learned that both services are loosely coupled as they both function independently from each other while being able to communicate with each other. 
 
