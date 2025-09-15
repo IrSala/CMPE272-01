@@ -8,7 +8,7 @@ The purpose of this repository is to showcase the build of a servless web applic
 1. Create a table called StudentRecords with the partition key being student_id in DynamoDB through AWS Management Console.
    ![Alt text](screenshots/1.png)
    
-2. Create an AWS Lambda Function in AWS Lambda through AWS Management Console and give Lambda function permission to be able to read/write to DynamoDB. ADD AND SPECIFY THE SECTION WHERE YOU CAN FIND THE SOURCE CODE!!!!! Below is a screenshot showing that the Lambda function was given permission to be able to read/wrte to DynamoDB.
+2. Create an AWS Lambda Function in AWS Lambda through AWS Management Console and give Lambda function permission to be able to read/write to DynamoDB. See the [Lambda function implementation](./lambda_function.py) for details. Below is a screenshot showing that the Lambda function was given permission to be able to read/wrte to DynamoDB.
    ![Alt text](screenshots/2.png)
    
 3. Create an Rest API named StudentAPI in API Gateway through AWS Management Console. Setup POST and GET methods and then deploy the API.
