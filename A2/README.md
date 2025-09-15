@@ -35,6 +35,7 @@ Below is a screenshot of utilizing these two requests using curl and the results
    ![Alt text](screenshots/4.png)
 
 Below is a screenshot of added data points to the table in DynamoDB along with the original data point used to test the CREATE and READ operations.
+
    ![Alt text](screenshots/7.png)
    
 **Optional**
@@ -46,7 +47,7 @@ Below is a screenshot of testing all the methods - CREATE, READ, PUT, DELETE
 
 
 **Reflection**
-I faced a couple challenges. ONe of the expected challenges is navigating the AWS Console. 
+I faced a couple challenges. One of the challenges, which is expected, is navigating the AWS Console. It was hard to find things such as adding permisions to a Lambda function or finding the right applications to peform what is needed. One big challenge I faced was the code not working at all. I followed the guidelines in the word document verbatim and when it came time to test the CREATE and READ functions, the output was just "Hello form Lambda!" I thought i messed something up in the setup process so I redid everything and I stil had the same issue. Turns out I forgot to deploy the code in Lambda. After deploying the code everything worked as expected. 
 
-From using AWS Lambda and DynamoDB I learned many things. I learned how to trigger a Lambda function using an API Gateway, interact with DynamoDB to perform basic CRUD operatinos, and how to deploy and test this application in the AWS environment. I also learned that both services are loosely coupled as they both function independently from each other while being able to communicate with each other. 
+From using AWS Lambda and DynamoDB I learned many things. I learned how to trigger a Lambda function using an API Gateway, interact with DynamoDB to perform basic CRUD operations, and how to deploy and test this application in the AWS environment. I also learned that both services are loosely coupled as they both function independently from each other while being able to communicate with each other. 
 
