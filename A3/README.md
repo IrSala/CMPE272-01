@@ -13,24 +13,25 @@ The two datasets used in this model are below:
 Below are screenshots of the results using the datasets 
 
 **Telco Customer Churn**
-- a
+- metrics, confusion matrix, and ROC curve plot 
 
 ![Alt text](Screenshots/Telco1.png)
-- a
+- cross-validation results
 
 ![Alt text](Screenshots/Telco2.png)
-- a
+- top 10 feature importance 
 
 ![Alt text](Screenshots/Telco3.png)
 
+
 **Customer Personality Analysis**
-- a
+- metrics, confusion matrix, and ROC curve plot 
 
 ![Alt text](Screenshots/Cust1.png)
-- a
+- cross-validation results
 
 ![Alt text](Screenshots/Cust2.png)
-- a
+- top 10 feature importance 
 
 ![Alt text](Screenshots/Cust3.png)
 
