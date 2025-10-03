@@ -14,17 +14,23 @@ Below are screenshots of the results using the datasets
 
 **Telco Customer Churn**
 - a
+
 ![Alt text](Screenshots/Telco1.png)
 - a
+
 ![Alt text](Screenshots/Telco2.png)
 - a
+
 ![Alt text](Screenshots/Telco3.png)
 
 **Customer Personality Analysis**
 - a
+
 ![Alt text](Screenshots/Cust1.png)
 - a
+
 ![Alt text](Screenshots/Cust2.png)
 - a
+
 ![Alt text](Screenshots/Cust3.png)
 
