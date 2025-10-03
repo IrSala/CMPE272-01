@@ -1,7 +1,10 @@
-# CMPE272-01-A1
-Irwin Salamanca CMPE 272 Assignment 2
+# CMPE272-01-A3
+Eugene Lacatis, Atharva Prasanna Mokashi, Irwin Salamanca, Matthew Tang
+CMPE 272 Assignment 3
 
-The purpose of this repository is to showcase the build of a servless web application with AWS Lambda and DynamoDB that does CRUD operations (Create, Read, Update, Delete).
+The purpose of this repository is to showcase classification model implemented to predict customer churn.
+
+***This entire sentence is bold and italicized***
 
 
 **Building the Serverless Web Application**
