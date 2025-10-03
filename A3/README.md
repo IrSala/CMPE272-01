@@ -4,7 +4,7 @@ CMPE 272 Assignment 3
 
 The purpose of this repository is to showcase classification model implemented to predict customer churn.
 
-<mark>***This sentence is bold, italic, and highlighted***</mark>
+<mark><span style="color:red">***This sentence is bold, italic, red, and highlighted yellow***</span></mark>
 
 
 **Building the Serverless Web Application**
